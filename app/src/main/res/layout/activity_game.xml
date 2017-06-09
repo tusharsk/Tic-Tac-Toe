@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.tusharsk.myapplication.Game">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100dip">
+
+        <TextView
+            android:id="@+id/p21"
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:gravity="left"
+            android:text="Player 1 "
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/p22"
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:text="Player 2"
+            android:textAlignment="viewStart"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:onClick="buclick"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:onClick="buclick"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:onClick="buclick"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:onClick="buclick"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:onClick="buclick"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:onClick="buclick"
+            android:textSize="24sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:onClick="buclick"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:onClick="buclick"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:onClick="buclick"
+            android:textSize="24sp" />
+    </TableRow>
+    </TableLayout>
